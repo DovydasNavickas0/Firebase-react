@@ -1,11 +1,16 @@
+import ContactForm from "./components/ContactsForm"
+import Question from "./components/Question"
+
+import { Container } from "react-bootstrap"
 
 function App() {
 
 
   return (
-    <div className="App">
-
-    </div>
+    <Container>
+      <ContactForm />
+      <Question />
+    </Container>
   )
 }
 
